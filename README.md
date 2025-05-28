@@ -23,17 +23,3 @@ To run the tests for a given exercise:
 Most exercises include test cases provided by Exercism. If a Makefile is included, it typically provides a test target for easy compilation and execution.
 
     💡 Note: You’ll need a C compiler (such as gcc) installed on your system.
-
-✅ Completed Exercises
-
-All completed exercises can be found in their respective directories. Each folder represents a single exercise from the C track and contains the solution, tests, and build files.
-
-📚 Why C?
-
-The C programming language is foundational to many systems and applications. Through these exercises, I aim to:
-
-    Improve my proficiency in C syntax and semantics
-
-    Practice writing efficient and readable code
-
-    Reinforce key computer science concepts like memory management, pointers, and data structures
