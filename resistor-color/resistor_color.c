@@ -2,7 +2,7 @@
 
 static const resistor_band_t band_colors[10] = {COLORS};
 
-uint16_t color_code(resistor_band_t color)
+uint8_t color_code(resistor_band_t color)
 {
 	return color;
 }
