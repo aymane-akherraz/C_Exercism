@@ -2,10 +2,10 @@
 
 char	*to_rna(const char *dna)
 {
-	int i = 0;
 	char *rna = malloc(strlen(dna) + 1);
 	if (!rna)
 		return (NULL);
+	int i = 0;
 	while (dna[i])
 	{
 		switch (dna[i]) {
