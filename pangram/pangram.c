@@ -11,10 +11,7 @@ bool is_pangram(const char *sentence)
 	{
 		if (isalpha(sentence[i]))
 		{
-			if (islower(sentence[i]))
-				bits |= 1 << (sentence[i] - 'a');
-			else
-				bits |= 1 << (sentence[i] - 'A');
+			bits |= 1 << (tolower(sentence[i]) - 'a');
 			if (bits == 0x3FFFFFF)
 				return (true);
 		}
