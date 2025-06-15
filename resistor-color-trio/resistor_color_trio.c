@@ -16,17 +16,17 @@ resistor_value_t	color_code(resistor_band_t colors[static 3])
 	else if (unit < 6)
 	{
 		r_val.unit = KILOOHMS;
-		r_val.value = total / 1000;
+		r_val.value = total / 1e3;
 	}
 	else if (unit < 9)
 	{
 		r_val.unit = MEGAOHMS;
-		r_val.value = total / 1000000;
+		r_val.value = total / 1e6;
 	}
 	else
 	{
 		r_val.unit = GIGAOHMS;
-		r_val.value = total / 1000000000;
+		r_val.value = total / 1e9;
 	}
 	return (r_val);
 }
